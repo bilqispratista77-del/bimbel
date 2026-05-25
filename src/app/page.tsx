@@ -1853,19 +1853,6 @@ export default function Home() {
       {/* ╔══════════════════════════════════════════════════════╗
           ║  17. FLOATING BUTTONS (WhatsApp + Download)           ║
           ╚══════════════════════════════════════════════════════╝ */}
-      {/* Floating Download Button */}
-      <motion.a
-        href="/download"
-        className="fixed bottom-6 right-[4.5rem] sm:right-24 z-50 w-14 h-14 bg-gradient-to-br from-red-600 to-amber-500 hover:from-red-700 hover:to-amber-600 rounded-full flex items-center justify-center shadow-2xl transition-all group"
-        whileHover={{ scale: 1.1 }}
-        whileTap={{ scale: 0.95 }}
-      >
-        <Download className="w-6 h-6 text-white relative z-10" />
-        <span className="absolute right-full mr-3 top-1/2 -translate-y-1/2 bg-gray-900 text-white text-sm font-medium px-3 py-1.5 rounded-lg whitespace-nowrap opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none">
-          Download & Deploy
-          <span className="absolute right-[-6px] top-1/2 -translate-y-1/2 w-0 h-0 border-t-4 border-b-4 border-l-4 border-t-transparent border-b-transparent border-l-gray-900" />
-        </span>
-      </motion.a>
 
       {/* Floating WhatsApp Button */}
       <motion.a
